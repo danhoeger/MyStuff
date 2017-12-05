@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StaffInfo>
+  <Staff ID="1">
+    <WorksWith>
+      <Client Number="1"/>
+    </WorksWith>
+    <DoesNotWorkWith/>
+  </Staff>
+  <Staff ID="2">
+    <WorksWith>
+      <Client Number="1"/>
+    </WorksWith>
+    <DoesNotWorksWith>
+      <Client Number="115"/>
+    </DoesNotWorksWith>
+  </Staff>
+  <Staff ID="3">
+    <WorksWith>
+      <Client Number="1"/>
+    </WorksWith>
+    <DoesNotWorksWith>
+      <Client Number="104"/>
+      <Client Number="115"/>
+      <Client Number="106"/>
+    </DoesNotWorksWith>
+  </Staff>
+  <Staff ID="4">
+    <WorksWith>
+      <Client Number="101"/>
+      <Client Number="108"/>
+      <Client Number="109"/>
+      <Client Number="110"/>
+      <Client Number="119"/>
+      <Client Number="125"/>
+      <Client Number="126"/>
+      <Client Number="133"/>
+      <Client Number="138"/>
+    </WorksWith>
+    <DoesNotWorksWith>
+      <Client Number="104"/>
+      <Client Number="105"/>
+      <Client Number="106"/>
+      <Client Number="113"/>
+      <Client Number="115"/>
+      <Client Number="116"/>
+      <Client Number="118"/>
+      <Client Number="123"/>
+      <Client Number="128"/>
+      <Client Number="129"/>
+      <Client Number="130"/>
+      <Client Number="132"/>
+      <Client Number="134"/>
+      <Client Number="135"/>
+      <Client Number="136"/>
+      <Client Number="137"/>
+    </DoesNotWorksWith>
+  </Staff>
+</StaffInfo>
+

@@ -1,0 +1,35 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeyondBehaviorSchedule"
+        xmlns:Xml="clr-namespace:System.Xml;assembly=System.Data" x:Class="BeyondBehaviorSchedule.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="422.585" Width="525">
+    <Grid HorizontalAlignment="Right" Width="517" Height="393" VerticalAlignment="Bottom">
+        <TabControl Margin="10,49,0,10" HorizontalAlignment="Left" Width="497">
+            <TabItem Header="Clients" Margin="0,0,-2,0">
+                <Grid Background="#FFE5E5E5" Margin="10,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="8*"/>
+                        <ColumnDefinition Width="473*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid HorizontalAlignment="Right" Margin="0,0,12,10" Width="461" Grid.Column="2" Height="286" VerticalAlignment="Bottom" DataContext="{Binding Path=ClientList}">
+                        
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Staff">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Schedule">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <DatePicker x:Name="WeekStarting" HorizontalAlignment="Right" Margin="0,10,301,0" VerticalAlignment="Top" Width="115" SelectedDateChanged="WeekStarting_SelectedDateChanged"/>
+        <Label Content="Start of Week:" HorizontalAlignment="Right" Margin="0,10,421,0" VerticalAlignment="Top" Width="86"/>
+
+    </Grid>
+</Window>

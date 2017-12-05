@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Clients>
+  <Client Number="101">
+    <Days>
+      <Monday/>
+      <Tuesday>
+        <Times>
+          <Time Start="3:30" End="5:30" />
+        </Times>
+      </Tuesday>
+      <Wednesday/>
+      <Thursday/>
+      <Friday/>
+    </Days>
+  </Client>
+</Clients>
