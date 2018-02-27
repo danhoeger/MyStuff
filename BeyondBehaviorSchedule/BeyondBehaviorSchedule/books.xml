@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<books xmlns="http://www.mybooks.com">
+  <book id="0">book zero</book>
+  <book id="1">book one</book>
+  <book id="2">book two</book>
+  <book id="3">book three</book>
+</books>

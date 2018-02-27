@@ -1,16 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Clients>
-  <Client Number="101">
-    <Days>
-      <Monday/>
-      <Tuesday>
-        <Times>
-          <Time Start="3:30" End="5:30" />
-        </Times>
-      </Tuesday>
-      <Wednesday/>
-      <Thursday/>
-      <Friday/>
-    </Days>
+  <Client>
+    <Number>101</Number>
+    <Monday>
+      <TimeStart/>
+      <TimeEnd/>
+    </Monday>
+    <Tuesday>
+      <TimeStart>3:30</TimeStart>
+      <TimeEnd>5:30</TimeEnd>
+    </Tuesday>
+    <Wednesday>
+      <TimeStart/>
+      <TimeEnd/>
+    </Wednesday>
+    <Thursday>
+      <TimeStart/>
+      <TimeEnd/>
+    </Thursday>
+    <Friday>
+      <TimeStart/>
+      <TimeEnd/>
+    </Friday>
   </Client>
 </Clients>
